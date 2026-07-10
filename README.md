@@ -1,49 +1,22 @@
 # 騎手 芝・ダート スタイルシフトマップ P0
 
-過去レースデータから、騎手ごとの芝とダートにおける位置取り傾向の違いを可視化した試作レポートです。
+芝・ダートの「前め」「動き」スコアを同一座標系の4象限で比較し、同一騎手の移動を表示する公開用静的サイトです。
 
-## 公開ページ
+- [トップページ](https://allallan-shop.github.io/JRA-jockey-turf-dirt-style-shift/)
+- [min100版](https://allallan-shop.github.io/JRA-jockey-turf-dirt-style-shift/jockey_turf_dirt_style_shift_min100.html)
+- [min50版](https://allallan-shop.github.io/JRA-jockey-turf-dirt-style-shift/jockey_turf_dirt_style_shift_min50.html)
 
-- [トップページ](https://allallan-shop.github.io/jockey-turf-dirt-style-shift/)
-- [min100版](https://allallan-shop.github.io/jockey-turf-dirt-style-shift/jockey_turf_dirt_style_shift_min100.html)
-- [min50版](https://allallan-shop.github.io/jockey-turf-dirt-style-shift/jockey_turf_dirt_style_shift_min50.html)
+## 4象限
 
-## マップの見方
+- Q1: 動き軸 < 0、前め軸 >= 0 — 折り合いタイプ
+- Q2: 動き軸 >= 0、前め軸 >= 0 — 前め積極タイプ
+- Q3: 動き軸 < 0、前め軸 < 0 — 悠々自適タイプ
+- Q4: 動き軸 >= 0、前め軸 < 0 — 後方積極タイプ
 
-各騎手について、芝とダートの位置取り傾向を別々の点で表示し、2点を線で結んでいます。
+min100 は237人、min50 は293人です。
 
-- 縦軸：前め／控えめ
-- 横軸：溜める・待つ／動かす・押し上げる
+## 注意
 
-芝からダートへ条件が変わったときに、傾向がどの方向へ移動するかを確認できます。
+これは能力ランキングではありません。騎乗馬構成、出走条件などの差を含む記述的な比較であり、因果関係・将来成績・馬券の推奨を示すものではありません。
 
-## 表示条件
-
-- min100版：芝・ダートともに100騎乗以上
-- min50版：芝・ダートともに50騎乗以上
-
-対象騎手数：
-
-- min100：237騎手
-- min50：293騎手
-
-## 主な機能
-
-- 騎手名検索
-- 芝・ダート双方の最低騎乗数フィルタ
-- シフト距離フィルタ
-- 直近5年に両方の騎乗がある騎手のみ表示
-- 芝点・ダート点・接続線・騎手名・代表カードの同期表示
-- 日本語tooltip
-
-## 注意事項
-
-このレポートは騎手の能力ランキングではありません。
-
-騎乗馬の脚質や能力、枠順、距離、馬場、厩舎の指示、レース展開、芝とダートでの騎乗馬構成の違いなどの影響を含みます。
-
-過去レースデータ上の傾向を可視化した記述統計であり、因果関係や馬券の期待値を示すものではありません。
-
-## ステータス
-
-P0 / 試作公開版
+P0 / 試作検証用
